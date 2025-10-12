@@ -84,9 +84,9 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {                  
     ),                                                                                                                            //
     [LAYER_1] = LAYOUT(
                  _______, KC_BRID,      KC_BRIU,      KC_MPRV,        KC_MPLY,      KC_MNXT,                                                                  KC_MUTE,         KC_VOLD,      KC_VOLU,      KC_LBRC,      KC_RBRC,         KC_EQL,
-                 _______, QK_BOOT,      XXXXXXX,      KC_RALT,        QK_BOOT,      MEH(KC_NO),                                                               QK_BOOT,         XXXXXXX,      XXXXXXX,      KC_LBRC,      KC_RBRC,         KC_EQL,
-        _______, _______, KC_LGUI,      KC_LCTL,      KC_LALT,        KC_LSFT,      HYPR(KC_NO),                                                              KC_LEFT,         KC_DOWN,      KC_UP,        KC_RGHT,      XXXXXXX,         _______,         _______,
-                 _______, XXXXXXX,      LCMD(KC_X),   LCMD(KC_C),     LCMD(KC_V),   XXXXXXX,        _______,             _______,    _______, _______,        KC_HOME,         KC_PGDN,      KC_PGUP,      KC_END,       XXXXXXX,         _______,
+                 _______, XXXXXXX,      XXXXXXX,      XXXXXXX,        QK_BOOT,      LCMD(KC_T),                                                               XXXXXXX,         XXXXXXX,      XXXXXXX,      KC_LBRC,      KC_RBRC,         KC_EQL,
+        _______, _______, LCMD(KC_A),   LCMD(KC_S),   XXXXXXX,        LCMD(KC_F),   XXXXXXX,                                                                  KC_LEFT,         KC_DOWN,      KC_UP,        KC_RGHT,      XXXXXXX,         _______,         _______,
+                 _______, LCMD(KC_Z),   LCMD(KC_X),   LCMD(KC_C),     LCMD(KC_V),   XXXXXXX,        _______,             _______,    _______, _______,        KC_HOME,         KC_PGDN,      KC_PGUP,      KC_END,       _______,         _______,
                                                       _______,        _______,      _______,        _______,             _______,    _______, LCMD(KC_SPC),   RALT_T(KC_DEL),  _______,      _______
     ),                                                                                                                            //
     [LAYER_2] = LAYOUT(
@@ -98,9 +98,9 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {                  
     ),                                                                                                                            //
     [LAYER_3] = LAYOUT(
                  _______, KC_BRID,      KC_BRIU,      KC_MPRV,        KC_MPLY,      KC_MNXT,                                                                  KC_MUTE,         KC_VOLD,      KC_VOLU,      KC_LBRC,      KC_RBRC,         KC_EQL,
-                 _______, QK_BOOT,      XXXXXXX,      KC_RALT,        QK_BOOT,      MEH(KC_NO),                                                               QK_BOOT,         XXXXXXX,      XXXXXXX,      KC_LBRC,      KC_RBRC,         KC_EQL,
-        _______, _______, KC_LGUI,      KC_LCTL,      KC_LALT,        KC_LSFT,      HYPR(KC_NO),                                                              KC_LEFT,         KC_DOWN,      KC_UP,        KC_RGHT,      XXXXXXX,         _______,         _______,
-                 _______, XXXXXXX,      LCMD(KC_X),   LCMD(KC_C),     LCMD(KC_V),   XXXXXXX,        _______,             _______,     _______, _______,       KC_HOME,         KC_PGDN,      KC_PGUP,      KC_END,       XXXXXXX,         _______,
+                 _______, XXXXXXX,      XXXXXXX,      XXXXXXX,        QK_BOOT,      LCMD(KC_T),                                                               XXXXXXX,         XXXXXXX,      XXXXXXX,      KC_LBRC,      KC_RBRC,         KC_EQL,
+        _______, _______, LCMD(KC_A),   LCMD(KC_S),   XXXXXXX,        LCMD(KC_F),   XXXXXXX,                                                                  KC_LEFT,         KC_DOWN,      KC_UP,        KC_RGHT,      XXXXXXX,         _______,         _______,
+                 _______, LCMD(KC_Z),   LCMD(KC_X),   LCMD(KC_C),     LCMD(KC_V),   XXXXXXX,        _______,             _______,     _______, _______,       KC_HOME,         KC_PGDN,      KC_PGUP,      KC_END,       _______,         _______,
                                                       _______,        _______,      _______,        _______,             _______,     _______, LCMD(KC_SPC),  RALT_T(KC_DEL),  _______,      _______
     ),                                                                                                                            //
 
