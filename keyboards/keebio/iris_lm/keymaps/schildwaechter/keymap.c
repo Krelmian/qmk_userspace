@@ -28,7 +28,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   //┌────────┬───────────┬───────────┬───────────┬───────────┬──────────┐                        ┌────────┬────────┬────────┬────────┬────────┬────────┐
      _______, KC_BRID,    KC_BRIU,    KC_MPRV,    KC_MPLY,    KC_MNXT,                            KC_MUTE, KC_VOLD, KC_VOLU, KC_LBRC, KC_RBRC, KC_EQL,
   //├────────┼───────────┼───────────┼───────────┼───────────┼──────────┤                        ├────────┼────────┼────────┼────────┼────────┼────────┤
-     _______, XXXXXXX,    XXXXXXX,    XXXXXXX,    QK_BOOT,    LCMD(KC_T),                         XXXXXXX, XXXXXXX, XXXXXXX, KC_LBRC, KC_RBRC, KC_EQL,
+     _______, LCG(KC_Q),  XXXXXXX,    XXXXXXX,    QK_BOOT,    LCMD(KC_T),                         XXXXXXX, XXXXXXX, XXXXXXX, KC_LBRC, KC_RBRC, KC_EQL,
   //├────────┼───────────┼───────────┼───────────┼───────────┼──────────┤                        ├────────┼────────┼────────┼────────┼────────┼────────┤
      _______, LCMD(KC_A), LCMD(KC_S), XXXXXXX,    LCMD(KC_F), XXXXXXX,                            KC_LEFT, KC_DOWN, KC_UP,   KC_RGHT, XXXXXXX, _______,
   //├────────┼───────────┼───────────┼───────────┼───────────┼──────────┼────────┐      ┌────────┼────────┼────────┼────────┼────────┼────────┼────────┤
